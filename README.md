@@ -1,6 +1,6 @@
 # Counter React App
 
-This project is a sample of useState hook in order to create and print a Reac Counter App. 
+This project is a sample of useState hook in order to create and print a React Counter App. 
 
 ## Available Scripts
 
