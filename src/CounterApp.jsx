@@ -16,7 +16,8 @@ export const CounterApp = (props) => {
         <>
             <h1>Counter App </h1>
             <h2 className='value'> {counter} </h2>
-            <button onClick={buttonPresed}>+ 1</button>
+            <button onClick={buttonPresed}>+1</button>
+            <button onClick={buttonPresed}>-1</button>
         </>
     )
 }
