@@ -9,7 +9,9 @@ export const CounterApp = (props) => {
         //aqui debemos modificar el valor de counter a travès del hook.
         setCounter(counter + 1);
     }
-
+    function buttonPresedMinus(){
+        setCounter(counter - 1);
+    }
 
 
     return (
@@ -17,7 +19,7 @@ export const CounterApp = (props) => {
             <h1>Counter App </h1>
             <h2 className='value'> {counter} </h2>
             <button onClick={buttonPresed}>+1</button>
-            <button onClick={buttonPresed}>-1</button>
+            <button onClick={buttonPresedMinus}>-1</button>
         </>
     )
 }
