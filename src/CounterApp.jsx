@@ -1,3 +1,7 @@
+
+
+
+
 import { useState } from 'react';  //permite usar el hook useState
 import PropTypes from 'prop-types';
 
@@ -9,18 +13,19 @@ export const CounterApp = (props) => {
         //aqui debemos modificar el valor de counter a travès del hook.
         setCounter(counter + 1);
     }
-    function buttonPresedMinus(){
+    function buttonPresedMinus() {
         setCounter(counter - 1);
     }
 
 
     return (
-        <>
-            <h1>Counter App </h1>
+        <div className='centeredcontent'>
             <h2 className='value'> {counter} </h2>
-            <button onClick={buttonPresed}>+1</button>
-            <button onClick={buttonPresedMinus}>-1</button>
-        </>
+            <button className='counterb' onClick={buttonPresed}>+1</button>
+            <button className='counterb' onClick={buttonPresedMinus}>-1</button>
+        </div>
+
+
     )
 }
 

@@ -5,9 +5,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1d1f2f;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  margin: 0;
+}
+h2{
+  margin: 0;
+}
+
+
+
+.App {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+
+}
+
+.content{
+  margin: 0;
+  text-align: left;
+  color: #D8EBFF;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+
+.value{
+  margin: auto; 
+  margin-top: 1rem; 
+  padding: 0.5rem;
+  text-align: center;
+  font-size: xx-large;
+  background-color: 	#ebffd8;
+  font-style: italic;
+  color: black;
+  width: 4rem;
+  border-radius: 3px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.centeredcontent{
+  text-align: center;
+} 
+
+.counterb{
+  
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
