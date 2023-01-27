@@ -4,7 +4,7 @@ import './index.css';
 
 
 //import components
-import { Me_sirve } from './Me_sirve';
+import { MeSirve } from './MeSirve';
 import App from './App';
 import { CounterApp } from './CounterApp';
 
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Me_sirve title="This is the title" aux="This is the aux text"/>  
+    <MeSirve title="This is the title" aux="This is the aux text"/>  
     <CounterApp value={55} />
    
   </React.StrictMode>
