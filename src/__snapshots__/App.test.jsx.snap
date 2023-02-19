@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente titulo App.jsx Debe ser igual al snapshot definido 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header>
+      <h1>
+        testing
+      </h1>
+    </header>
+  </div>
+</div>
+`;
